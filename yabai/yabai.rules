@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+# App specific
+yabai -m rule --add app="^System Settings$" label="sys_settings" manage=off
+yabai -m rule --add app="^Slack$" label="slack_huddle" title=".*Huddle$" manage=off

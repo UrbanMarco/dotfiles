@@ -1,0 +1,44 @@
+regexp=time\=(\")?\d\d\d\d\-\d\d\-\d\dT\d\d:\d\d:\d\dZ(\")?
+colour=green
+
+=====
+
+regexp=level\=(\")?warning(\")?
+colours=bold yellow
+
+=====
+
+regexp=level\=(\")?error(\")?
+colours=bold red
+
+=====
+
+regexp=level\=(\")?info(\")?
+colours=bold dark cyan
+
+=====
+
+regexp=request\.id\=(\")?[a-zA-Z]{6}T\d\d-\d\d-\d\d\dZ(\")?
+colours=bold green on_white
+
+=====
+
+regexp=msg\=(\")?.*(\")?
+colours=white
+
+=====
+
+regexp=file\=(\")?\w+.\w+(\")?
+colours=bold cyan
+
+=====
+
+regexp=func\=(\")?\w+(\")?
+colours=bold blue
+
+=====
+
+regexp=\[pod\/(\w+-\w+-\w+-\w+)\/\w+-\w+\]
+replace=[\1]
+colour=bold white
+
