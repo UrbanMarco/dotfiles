@@ -1,0 +1,7 @@
+ZSH_THEME="xiong-chiamiov-plus"
+
+plugins=(git
+	dotenv
+	kubectl)
+
+export EDITOR="vim"
